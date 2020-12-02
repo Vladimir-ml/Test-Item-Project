@@ -19,44 +19,44 @@
 city  
 city_id – id города, где проходит акция  
 client_city_id – id города, где находится покупатель  
-city – город  
+city – город    
 client_city – город, где находится покупатель  
 client  
 client_id – id покупателя  
-client_city_id – id города, где находится покупатель
-birth_date – дата рождения покупателя
-registration – дата регистрации покупателя
-promotion
-promotion_id – id акции
-category_id – id категории
-promotion_name – акция
-category_name – категория
-partner_id – id партнёра
-partner_name – партнёр
-purchase
-purchase_id – id покупки
-partner_id – id партнёра
-client_id – id покупателя
-city_id – id города
-promotion_id – id акции
-category_id – id категории
-purchase_date – дата покупки
-price – цена за единицу товара
-quantity – число проданных единиц
-status – статус покупки
-Вам нужно написать запрос, чтобы получить такую таблицу
+client_city_id – id города, где находится покупатель  
+birth_date – дата рождения покупателя  
+registration – дата регистрации покупателя  
+promotion  
+promotion_id – id акции  
+category_id – id категории   
+promotion_name – акция  
+category_name – категория  
+partner_id – id партнёра  
+partner_name – партнёр  
+purchase  
+purchase_id – id покупки  
+partner_id – id партнёра  
+client_id – id покупателя  
+city_id – id города  
+promotion_id – id акции  
+category_id – id категории  
+purchase_date – дата покупки  
+price – цена за единицу товара  
+quantity – число проданных единиц  
+status – статус покупки  
+Вам нужно написать запрос, чтобы получить такую таблицу  
 
-purchase_date – дата покупки
-purchase_id – id покупки
-client_id – id покупателя
-client_age – возраст покупателя
-client_registration_age – как долго человек пользуется вашими магазинами
-client_category – содержит new или old, если это первая или последующая покупка соответственно
-promotion_name – акция
-category_name – категория
-partner_name – партнёр
-client_city – город, где находится покупатель
-city – город
-revenue – сумма выручки
-quantity – число проданных единиц
+purchase_date – дата покупки  
+purchase_id – id покупки  
+client_id – id покупателя  
+client_age – возраст покупателя  
+client_registration_age – как долго человек пользуется вашими магазинами  
+client_category – содержит new или old, если это первая или последующая покупка соответственно  
+promotion_name – акция  
+category_name – категория  
+partner_name – партнёр  
+client_city – город, где находится покупатель  
+city – город  
+revenue – сумма выручки  
+quantity – число проданных единиц  
 При этом в таблице должны присутствовать только значения, где в поле status стоит значение 1, и только те, где purchase_date находится в диапазоне от 01.05.2020 до 01.08.2020
